@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "mi-primera-react-native-app",
+    "slug": "mi-primera-react-native-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo_splash.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/Logo_splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#FF5733"
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/Logo_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FF5733"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Logo_splash.png",
+        "backgroundColor": "#FF5733"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+        "android.permission.ACCESS_MEDIA_LOCATION",
+        "android.permission.READ_MEDIA_AUDIO",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+        "android.permission.ACCESS_MEDIA_LOCATION",
+        "android.permission.READ_MEDIA_AUDIO",
+        "android.permission.READ_MEDIA_IMAGES"
+      ],
+      "package": "com.anonymous.miprimerareactnativeapp"
+    },
+    "web": {
+      "favicon": "./assets/Logo_splash.png"
+    }
+  }
+}
